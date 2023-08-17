@@ -1,0 +1,38 @@
+.center{
+    margin: 5%;
+    border: solid 2px black;
+    border-radius: 7pc;
+    box-shadow: 8px 8px rgba(15, 14, 14, 0.418) ;
+    text-align: center;
+    color: blue;
+    background-color: rgb(218, 241, 40);
+    text-overflow: clip;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+body{
+    background-color: aqua;
+}
+
+video{
+    border-radius: 3pc;
+    box-shadow: 5px 5px rgb(39, 40, 39);
+}
+
+.title{
+    animation: example .5s;
+    animation-iteration-count: infinite;
+    width:fit-content;
+    height: fit-content;
+}
+
+@keyframes example {
+    0%   {background-color: rgb(195, 183, 183);}
+    25%  {background-color: yellow;}
+    50%  {background-color: rgba(0, 0, 255, 0.382);}
+    100% {background-color: rgb(116, 213, 218);}
+}
