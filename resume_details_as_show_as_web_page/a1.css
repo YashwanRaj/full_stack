@@ -1,0 +1,44 @@
+h1{
+    padding-top:calc(50%,100%,50%);
+}
+
+
+.back-video{
+    position: absolute;
+    right: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: 0%;
+    background:cover;
+}
+
+
+a{
+    color: blue;
+    text-decoration: none;
+    border: solid 3px rebeccapurple;
+    border-radius:10px ;
+    background-color: aqua;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 3px 3px rgba(216, 22, 22, 0.497);
+
+}
+
+h2{
+    height: fit-content;
+    width: fit-content;
+    animation-name: example;
+    animation-duration: .5s;
+    animation-delay: 10000s;
+}
+
+@keyframes example {
+    0%   {background-color: rgb(195, 183, 183);}
+    25%  {background-color: yellow;}
+    50%  {background-color: rgba(0, 0, 255, 0.382);}
+    100% {background-color: rgb(116, 213, 218);}
+}
+
